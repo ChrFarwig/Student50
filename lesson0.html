@@ -1,13 +1,13 @@
 <html>
    
 <style>
-   @media (min-width:500px)
+   @media (min-width: 500px)
    { 
-      body { background-color: red}
+      h1::before { content: "big > "}
    }
-   @media (max-width:499px)
+   @media (max-width: 499px)
    { 
-      body { background-color: blue}
+      h1::before { content: "small > "}
    }
 </style>
    
@@ -21,7 +21,7 @@
       <input name="Age" type="numer" placeholder="Age">
    </form>
    <p>Paragraph 1</p>
-   <p class="screen only">Paragraph 2 (wont print)</pY
+   <p class="screen only">Paragraph 2 (wont print)</p>
 </body>
 
 </html>
